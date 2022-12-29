@@ -1,0 +1,12 @@
+Description=Q division for Support team
+After=network.target
+[Service]
+User=<YOUR USER>
+WorkingDirectory=<PATH TO YOUR PROJECT>
+ExecStart=<PATH TO YOUR VENV>/bin/gunicorn -b localhost:8000 application:application --timeout 600 --error-logfile 
+/<PATH TO YOUR PROJECT>/gunicorn.error.log
+RuntimeMaxSec=1h
+Restart=always
+[Install]
+WantedBy=multi-user.target
+
