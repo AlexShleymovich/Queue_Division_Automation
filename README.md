@@ -12,4 +12,4 @@ Previously, the division of the General Queue, which receives all customer ticke
 1. **Intermediate Servers:** Nginx
 
 ## Usage + User Flow
-Please open the PDF file attahced in this repo for additional information 
+Please open the [PDF file](https://github.com/AlexShleymovich/Queue_Division_Automation/blob/main/Q_div_auto_sum.pdf) attahced in this repo for additional information
